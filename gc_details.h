@@ -14,6 +14,11 @@ class PtrDetails
         if(size > 0){
             isArray = true;
         }
+        else {
+            isArray = false;
+        }
+        arraySize = size;
+        refcount = 1;
     }
 };
 
@@ -23,5 +28,5 @@ template <class T>
 bool operator==(const PtrDetails<T> &ob1,
                 const PtrDetails<T> &ob2)
 {
-    return ob1.memPtr == ob2.memPtr
+    return ob1.memPtr == ob2.memPtr;
 }
