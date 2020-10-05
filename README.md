@@ -20,9 +20,3 @@ last-compiled version. Adjust your code to resolve compiler errors and try again
 $ ./make
 $ ./compiled
 ```
-
-## Project TODO List:
-- Complete `Pointer` constructor
-- Complete `Pointer` `operator==`
-- Complete `Pointer` destructor
-- Complete `PtrDetails` class
